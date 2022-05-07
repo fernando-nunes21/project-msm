@@ -1,0 +1,51 @@
+
+/* Class = "UITextField"; accessibilityHint = "Campo para inserir a senha"; ObjectID = "8ZP-z0-u5q"; */
+"8ZP-z0-u5q.accessibilityHint" = "Campo para inserir a senha";
+
+/* Class = "UITextField"; accessibilityLabel = "Digite a sua senha"; ObjectID = "8ZP-z0-u5q"; */
+"8ZP-z0-u5q.accessibilityLabel" = "Digite a sua senha";
+
+/* Class = "UITextField"; placeholder = "Digite a sua senha"; ObjectID = "8ZP-z0-u5q"; */
+"8ZP-z0-u5q.placeholder" = "Digite a sua senha";
+
+/* Class = "UILabel"; accessibilityHint = "slogan MSM"; ObjectID = "8hq-mi-Sfy"; */
+"8hq-mi-Sfy.accessibilityHint" = "slogan MSM";
+
+/* Class = "UILabel"; accessibilityLabel = "Um chat simples, para você!"; ObjectID = "8hq-mi-Sfy"; */
+"8hq-mi-Sfy.accessibilityLabel" = "Um chat simples, para você!";
+
+/* Class = "UILabel"; text = "Um chat simples, para você!"; ObjectID = "8hq-mi-Sfy"; */
+"8hq-mi-Sfy.text" = "Um chat simples, para você!";
+
+/* Class = "UITextField"; accessibilityHint = "Campo para inserir username"; ObjectID = "CsX-kV-Eus"; */
+"CsX-kV-Eus.accessibilityHint" = "Campo para inserir username";
+
+/* Class = "UITextField"; accessibilityLabel = "Digite o seu username"; ObjectID = "CsX-kV-Eus"; */
+"CsX-kV-Eus.accessibilityLabel" = "Digite o seu username";
+
+/* Class = "UITextField"; placeholder = "Digite o seu username"; ObjectID = "CsX-kV-Eus"; */
+"CsX-kV-Eus.placeholder" = "Digite o seu username";
+
+/* Class = "UILabel"; accessibilityHint = "label do username"; ObjectID = "Txt-jq-Ghu"; */
+"Txt-jq-Ghu.accessibilityHint" = "label do username";
+
+/* Class = "UILabel"; accessibilityLabel = "Username"; ObjectID = "Txt-jq-Ghu"; */
+"Txt-jq-Ghu.accessibilityLabel" = "Username";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "Txt-jq-Ghu"; */
+"Txt-jq-Ghu.text" = "Username";
+
+/* Class = "UIImageView"; accessibilityHint = "Logotipo MSM"; ObjectID = "fi2-pf-L0n"; */
+"fi2-pf-L0n.accessibilityHint" = "Logotipo MSM";
+
+/* Class = "UIImageView"; accessibilityLabel = "MSM Logotipo"; ObjectID = "fi2-pf-L0n"; */
+"fi2-pf-L0n.accessibilityLabel" = "MSM Logotipo";
+
+/* Class = "UILabel"; accessibilityHint = "label da senha"; ObjectID = "w62-2w-xuJ"; */
+"w62-2w-xuJ.accessibilityHint" = "label da senha";
+
+/* Class = "UILabel"; accessibilityLabel = "Senha"; ObjectID = "w62-2w-xuJ"; */
+"w62-2w-xuJ.accessibilityLabel" = "Senha";
+
+/* Class = "UILabel"; text = "Senha"; ObjectID = "w62-2w-xuJ"; */
+"w62-2w-xuJ.text" = "Senha";
