@@ -1,0 +1,1166 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028F3BD1F76536182769D7FA2BB26457 /* ImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7667EBA8177D681E12BEECBC651CC76C /* ImageStack.swift */; };
+		0D2EA64206F005D787CF43B202E3D2AD /* OFF@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70D93783E4A69B25B4EFDA0EE1E715C /* OFF@3x.png */; };
+		0F14C7CE8453EB67146798D44A03017F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		1021FCA162D086E55DE8D6926F8DA215 /* ImageGalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB07A589CBB88EC661226603209DA748 /* ImageGalleryViewCell.swift */; };
+		1506893160B3A44F8C2244C42DC1491D /* Pods-msm-chat-msm-chatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BAFCCAAE9BBA16582D7F4CDD0026F2 /* Pods-msm-chat-msm-chatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1948830F0F143F2897657B9D75895EFA /* VideoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63914A5852FF85A7D3F0AC0A43DBA591 /* VideoInfoView.swift */; };
+		1BBD42E84E62842B6EA186CEF24BBF45 /* ImagePicker-ImagePicker in Resources */ = {isa = PBXBuildFile; fileRef = 97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */; };
+		1BBED45FEDD4AF437A762909E4937019 /* CameraMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC00A9439465A78BB9AD3D8DCA39A1C /* CameraMan.swift */; };
+		1C470FBFE6DA12031E04B218E213C775 /* Pods-msm-chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D07B7633E2DD6FAB97DFF9ADE0F37A /* Pods-msm-chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D5090C638CFC6ABA603A73B2D890CC7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2370F7387131600F6D7CFA83CFAACB7F /* Helper.swift */; };
+		267C4C6C182CC853990C78F13C5318CE /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FC6A06AC529531626F1D7E6012532B /* TopView.swift */; };
+		3394F32D1012AEAB9CB4946C94213620 /* Pods-msm-chat-msm-chatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DDDF42C0A63826369DA1348ACB8304 /* Pods-msm-chat-msm-chatUITests-dummy.m */; };
+		3806469B2739BBFA16083760004ED9B4 /* ImageGalleryViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD8D21906BF0815DBC3F29AF2C0BDB /* ImageGalleryViewDataSource.swift */; };
+		38FD95DCC2D02D5B78BE9AEE48DBDF25 /* ConstraintsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359770D645C893A89AF0A13311DEC34F /* ConstraintsSetup.swift */; };
+		40BBAEB3EF2B3F2B5F1DF95195E0E196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		44C48F5FED4CDDFF36AA6BCC947E22FE /* Pods-msm-chatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 015D4FBC989620652F6B59D4EDA2CC8B /* Pods-msm-chatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50374D59C8ED3AE3E41C30F25859F981 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4221A0B570D9FE12D1F7B0C06BDF3A3 /* ImagePickerController.swift */; };
+		5DFA92354C7ECB27D5E8C19B5841FC8A /* Pods-msm-chatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D426F72BC346A614B145D304BD7F2 /* Pods-msm-chatTests-dummy.m */; };
+		67F4D709074A8CEA58AC531A80753D2E /* AUTO@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFC40C5FC81BD132BC011C1DAD2A1FC /* AUTO@3x.png */; };
+		6CC35A9EB4605045CFBB132862483483 /* video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D55EED39C90C9AE362D0FA1F4453F6 /* video@3x.png */; };
+		6FAA62F8C663AAEDAB170956E9A298CC /* ImageGalleryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433177E66768D105D772EADA9665CC98 /* ImageGalleryLayout.swift */; };
+		743ED1DCEC16DC2E7FAD8FBDD276EC8F /* ImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B872CD909F3F1446FA0E7738E944D6 /* ImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784DF7F278DC988FEEECB999A9ADFCBB /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E20E724AA6960DB4595FBB6E16C14 /* BottomContainerView.swift */; };
+		7DB7E0E519A315B78D72BF7C63C64E30 /* ButtonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D990B8184A5B0A3B65049A09C8A5 /* ButtonPicker.swift */; };
+		829A79A8C324697D5A619C029AEB0063 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA32188D2447424831FC1D4E1B9956 /* CameraView.swift */; };
+		A37A20D9F4E2FCF3202E74B02CDC2708 /* cameraIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C399FDE0A9DDB812356AB0E951CE98 /* cameraIcon@3x.png */; };
+		A4085A5FF75C0C181C305B1EAA748A45 /* selectedImageGallery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B6AEE763382C86405643D88350EA9A /* selectedImageGallery@3x.png */; };
+		B0E87F4E370B3A0CD14B50D219AE7B0B /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1444A81273AA7463383EC886343D10E /* StackView.swift */; };
+		BD0139B5F1C96514CB66C4310AAF1DF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */; };
+		CA8CFC49D2338D41DA4E83F941867CEB /* ImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB2C2EB249A108C21C5ABD1D0FB909 /* ImagePicker-dummy.m */; };
+		CEA4A5C88C331EE4459A3040D19CC1C2 /* focusIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49CAFE6EDCB50D61BE052FE793467356 /* focusIcon@3x.png */; };
+		D4BB4D928CB44E6CE753BEA14E5AC918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		DE86F0E560347FA4BF03461BF531D733 /* ON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D5D540FE0B1BBA49CCBAF458450341 /* ON@3x.png */; };
+		ECFE64B0759EFA4F555994B6CDCED624 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179B284DC3988B215603A00F38B31BC /* AssetManager.swift */; };
+		F2AF558F96F3C43C3E4C747E45E5637C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D263CD97DD8D0F42A1B896E45E7F198 /* LocationManager.swift */; };
+		F2ED9C9337B84D1E42E67BF7F7DAD72C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F623D2CDD3DA28DE31A11768944F05 /* Configuration.swift */; };
+		FEE83C179D9D7B8B134167165F54CCC8 /* Pods-msm-chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FBFC75CF66A2B77C3C611CC4F7AB5 /* Pods-msm-chat-dummy.m */; };
+		FF442C8D46ED890D6DF87BDD5543AD01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */; };
+		FF8C6AC907C8F4B527F9A0CBDBCC7F92 /* ImageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E848EF8EC5CA730B2143B824C66123 /* ImageGalleryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08535404FFFF9BDC7BCF32998D4C601F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C9735150B775D5D9AC0B3E7843763E;
+			remoteInfo = "Pods-msm-chat";
+		};
+		81EFA7862FE5CF3F55B56C4A58090E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CB8D6098C21E12CE735619344DE81E;
+			remoteInfo = ImagePicker;
+		};
+		D20B1B29B0AAA5B076105572542E247C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614D1818852890AC7D3CDF68D512C370;
+			remoteInfo = "ImagePicker-ImagePicker";
+		};
+		DF96B6AC265C4F86EDAC207AF9CC7465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CB8D6098C21E12CE735619344DE81E;
+			remoteInfo = ImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0031D990B8184A5B0A3B65049A09C8A5 /* ButtonPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonPicker.swift; path = Source/BottomView/ButtonPicker.swift; sourceTree = "<group>"; };
+		015D4FBC989620652F6B59D4EDA2CC8B /* Pods-msm-chatTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msm-chatTests-umbrella.h"; sourceTree = "<group>"; };
+		01BAFCCAAE9BBA16582D7F4CDD0026F2 /* Pods-msm-chat-msm-chatUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msm-chat-msm-chatUITests-umbrella.h"; sourceTree = "<group>"; };
+		035652294205117632827F1E4CAFCB65 /* Pods-msm-chat-msm-chatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msm-chat-msm-chatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03FC6A06AC529531626F1D7E6012532B /* TopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopView.swift; path = Source/TopView/TopView.swift; sourceTree = "<group>"; };
+		097D47574F66EE356DD57074B17B6E71 /* ResourceBundle-ImagePicker-ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImagePicker-ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		0A5A19CA5333DE24696B9E1A29B30617 /* ImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePicker.release.xcconfig; sourceTree = "<group>"; };
+		0AC00A9439465A78BB9AD3D8DCA39A1C /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraMan.swift; path = Source/CameraView/CameraMan.swift; sourceTree = "<group>"; };
+		0CB496752B23A5C57F7D542F5DB16DDC /* Pods-msm-chat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msm-chat-acknowledgements.plist"; sourceTree = "<group>"; };
+		1826BF4915616953F6EC458926E78D81 /* Pods-msm-chat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msm-chat-Info.plist"; sourceTree = "<group>"; };
+		18C0315E9442232998242554668FBE59 /* Pods-msm-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msm-chat.release.xcconfig"; sourceTree = "<group>"; };
+		18D07B7633E2DD6FAB97DFF9ADE0F37A /* Pods-msm-chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-msm-chat-umbrella.h"; sourceTree = "<group>"; };
+		1A5E20E724AA6960DB4595FBB6E16C14 /* BottomContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomContainerView.swift; path = Source/BottomView/BottomContainerView.swift; sourceTree = "<group>"; };
+		1C5FBFC75CF66A2B77C3C611CC4F7AB5 /* Pods-msm-chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msm-chat-dummy.m"; sourceTree = "<group>"; };
+		2370F7387131600F6D7CFA83CFAACB7F /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Source/Helper.swift; sourceTree = "<group>"; };
+		2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		28B6AEE763382C86405643D88350EA9A /* selectedImageGallery@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "selectedImageGallery@3x.png"; path = "Images/selectedImageGallery@3x.png"; sourceTree = "<group>"; };
+		29DA32188D2447424831FC1D4E1B9956 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = Source/CameraView/CameraView.swift; sourceTree = "<group>"; };
+		2A9D148781324D6322B5F6988902F62C /* Pods-msm-chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-msm-chat.modulemap"; sourceTree = "<group>"; };
+		2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2D3316990265FC1BBA0A3C3894490AD3 /* ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		335ECEC6D71D6A0DB06EED39C98220E1 /* Pods-msm-chat-msm-chatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msm-chat-msm-chatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34D5D540FE0B1BBA49CCBAF458450341 /* ON@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ON@3x.png"; path = "Images/ON@3x.png"; sourceTree = "<group>"; };
+		359770D645C893A89AF0A13311DEC34F /* ConstraintsSetup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsSetup.swift; path = Source/Extensions/ConstraintsSetup.swift; sourceTree = "<group>"; };
+		36D55EED39C90C9AE362D0FA1F4453F6 /* video@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video@3x.png"; path = "Images/video@3x.png"; sourceTree = "<group>"; };
+		3CBD8D21906BF0815DBC3F29AF2C0BDB /* ImageGalleryViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewDataSource.swift; path = Source/ImageGallery/ImageGalleryViewDataSource.swift; sourceTree = "<group>"; };
+		3DC9705E253DB88B73151F6137B3BDC0 /* Pods-msm-chatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msm-chatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		433177E66768D105D772EADA9665CC98 /* ImageGalleryLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryLayout.swift; path = Source/ImageGallery/ImageGalleryLayout.swift; sourceTree = "<group>"; };
+		43E53BF0CBE8727C9F4A8B62DE89D04A /* Pods-msm-chat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msm-chat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46E6256C3C273E675370F545AE08B78F /* ImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImagePicker.modulemap; sourceTree = "<group>"; };
+		47DDDF42C0A63826369DA1348ACB8304 /* Pods-msm-chat-msm-chatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msm-chat-msm-chatUITests-dummy.m"; sourceTree = "<group>"; };
+		49CAFE6EDCB50D61BE052FE793467356 /* focusIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "focusIcon@3x.png"; path = "Images/focusIcon@3x.png"; sourceTree = "<group>"; };
+		4B55C17FCBF44E0C93397EB10789B358 /* Pods-msm-chatTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-msm-chatTests.modulemap"; sourceTree = "<group>"; };
+		521C27B11AD8F779F86E2230F9EF3805 /* Pods-msm-chat-msm-chatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msm-chat-msm-chatUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5CF06ADBB90C15973EAE8B88470EE6F7 /* Pods-msm-chat-msm-chatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msm-chat-msm-chatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E2BDCAA1D49996587CEAAD702DEA883 /* Pods-msm-chat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-msm-chat-frameworks.sh"; sourceTree = "<group>"; };
+		61E848EF8EC5CA730B2143B824C66123 /* ImageGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryView.swift; path = Source/ImageGallery/ImageGalleryView.swift; sourceTree = "<group>"; };
+		63914A5852FF85A7D3F0AC0A43DBA591 /* VideoInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoInfoView.swift; path = Source/ImageGallery/VideoInfoView.swift; sourceTree = "<group>"; };
+		6D263CD97DD8D0F42A1B896E45E7F198 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Source/LocationManager.swift; sourceTree = "<group>"; };
+		7667EBA8177D681E12BEECBC651CC76C /* ImageStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageStack.swift; path = Source/BottomView/ImageStack.swift; sourceTree = "<group>"; };
+		7AFC40C5FC81BD132BC011C1DAD2A1FC /* AUTO@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AUTO@3x.png"; path = "Images/AUTO@3x.png"; sourceTree = "<group>"; };
+		7E6EB609C0C10A710D3052B6A0DDC83C /* Pods-msm-chat-msm-chatUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msm-chat-msm-chatUITests-Info.plist"; sourceTree = "<group>"; };
+		821F809DE0C56CC42208996F2EC0E50C /* ImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		8F45287461CD6169F6BA3EE789780DA8 /* Pods-msm-chatTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msm-chatTests-Info.plist"; sourceTree = "<group>"; };
+		9336F1880E2805D76E627908D24207DB /* Pods-msm-chat-msm-chatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msm-chat-msm-chatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ImagePicker-ImagePicker"; path = ImagePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		987CD19BC0CE18F2E00B0AD5ABF8670D /* ImagePicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImagePicker; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B872CD909F3F1446FA0E7738E944D6 /* ImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0EEDCF798B66C76930A6097AC0B46BD /* Pods-msm-chat-msm-chatUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-msm-chat-msm-chatUITests.modulemap"; sourceTree = "<group>"; };
+		A9B8DA7DDBDC630AEA0F870EE232320A /* Pods-msm-chatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-msm-chatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC6074C54FAEE7C77563A941C0BF367B /* Pods-msm-chatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msm-chatTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5F623D2CDD3DA28DE31A11768944F05 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
+		BC46B1C648C8E33E41B22921C4A96852 /* ImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePicker.debug.xcconfig; sourceTree = "<group>"; };
+		C1444A81273AA7463383EC886343D10E /* StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackView.swift; path = Source/BottomView/StackView.swift; sourceTree = "<group>"; };
+		C7D1A227B0CCF96E8138F4C7475997FA /* Pods-msm-chatTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-msm-chatTests"; path = Pods_msm_chatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0D426F72BC346A614B145D304BD7F2 /* Pods-msm-chatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-msm-chatTests-dummy.m"; sourceTree = "<group>"; };
+		CB07A589CBB88EC661226603209DA748 /* ImageGalleryViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewCell.swift; path = Source/ImageGallery/ImageGalleryViewCell.swift; sourceTree = "<group>"; };
+		D179B284DC3988B215603A00F38B31BC /* AssetManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetManager.swift; path = Source/AssetManager.swift; sourceTree = "<group>"; };
+		D4DB2C2EB249A108C21C5ABD1D0FB909 /* ImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImagePicker-dummy.m"; sourceTree = "<group>"; };
+		D729B948748E0016F455B0D77ECDD680 /* Pods-msm-chatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-msm-chatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA0B8BB421D4D8573367A95BA74C8B28 /* Pods-msm-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-msm-chat.debug.xcconfig"; sourceTree = "<group>"; };
+		E70D93783E4A69B25B4EFDA0EE1E715C /* OFF@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "OFF@3x.png"; path = "Images/OFF@3x.png"; sourceTree = "<group>"; };
+		ECB0E1217B26FAE7B4B7619F7C4F52D5 /* Pods-msm-chat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-msm-chat"; path = Pods_msm_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C399FDE0A9DDB812356AB0E951CE98 /* cameraIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraIcon@3x.png"; path = "Images/cameraIcon@3x.png"; sourceTree = "<group>"; };
+		F4221A0B570D9FE12D1F7B0C06BDF3A3 /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Source/ImagePickerController.swift; sourceTree = "<group>"; };
+		FD2D986153563A7CCC558E95B1ABB2CA /* Pods-msm-chat-msm-chatUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-msm-chat-msm-chatUITests"; path = Pods_msm_chat_msm_chatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036E88A2F8759A611EA5EC7A1A647D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF442C8D46ED890D6DF87BDD5543AD01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2067457DB9BF3FC9BFE99C90B602174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0139B5F1C96514CB66C4310AAF1DF5 /* AVFoundation.framework in Frameworks */,
+				D4BB4D928CB44E6CE753BEA14E5AC918 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42908E8E002D1B591A51EF1DA1E53714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F14C7CE8453EB67146798D44A03017F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795AEFA250880B12E4934D01241B2BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BBAEB3EF2B3F2B5F1DF95195E0E196 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD3FC742B3A2BCFD5740512F039A706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA13D49ADE69D79D70A8B79AAAC38DE9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB1EFACF55E0ECBE8EA0621AE8EB87E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D186EFC1749125C220C2642A895195CD /* Pods-msm-chat */,
+				82E4E39B256CB6DA4987B409D7770A48 /* Pods-msm-chat-msm-chatUITests */,
+				836EC6D4DAADBBAE158B4CAB048015A6 /* Pods-msm-chatTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A82C881558F7FC5ADBE0409C493003B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				987CD19BC0CE18F2E00B0AD5ABF8670D /* ImagePicker */,
+				97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */,
+				ECB0E1217B26FAE7B4B7619F7C4F52D5 /* Pods-msm-chat */,
+				FD2D986153563A7CCC558E95B1ABB2CA /* Pods-msm-chat-msm-chatUITests */,
+				C7D1A227B0CCF96E8138F4C7475997FA /* Pods-msm-chatTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		695A0AF2E1799DD4435390E977914ED8 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D179B284DC3988B215603A00F38B31BC /* AssetManager.swift */,
+				1A5E20E724AA6960DB4595FBB6E16C14 /* BottomContainerView.swift */,
+				0031D990B8184A5B0A3B65049A09C8A5 /* ButtonPicker.swift */,
+				0AC00A9439465A78BB9AD3D8DCA39A1C /* CameraMan.swift */,
+				29DA32188D2447424831FC1D4E1B9956 /* CameraView.swift */,
+				B5F623D2CDD3DA28DE31A11768944F05 /* Configuration.swift */,
+				359770D645C893A89AF0A13311DEC34F /* ConstraintsSetup.swift */,
+				2370F7387131600F6D7CFA83CFAACB7F /* Helper.swift */,
+				433177E66768D105D772EADA9665CC98 /* ImageGalleryLayout.swift */,
+				61E848EF8EC5CA730B2143B824C66123 /* ImageGalleryView.swift */,
+				CB07A589CBB88EC661226603209DA748 /* ImageGalleryViewCell.swift */,
+				3CBD8D21906BF0815DBC3F29AF2C0BDB /* ImageGalleryViewDataSource.swift */,
+				F4221A0B570D9FE12D1F7B0C06BDF3A3 /* ImagePickerController.swift */,
+				7667EBA8177D681E12BEECBC651CC76C /* ImageStack.swift */,
+				6D263CD97DD8D0F42A1B896E45E7F198 /* LocationManager.swift */,
+				C1444A81273AA7463383EC886343D10E /* StackView.swift */,
+				03FC6A06AC529531626F1D7E6012532B /* TopView.swift */,
+				63914A5852FF85A7D3F0AC0A43DBA591 /* VideoInfoView.swift */,
+				CFBB19E70E9A57AE76E669EB62FFDDE6 /* Resources */,
+				E8AE0D8E201B7AD2D13714055D31771A /* Support Files */,
+			);
+			name = ImagePicker;
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		82E4E39B256CB6DA4987B409D7770A48 /* Pods-msm-chat-msm-chatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0EEDCF798B66C76930A6097AC0B46BD /* Pods-msm-chat-msm-chatUITests.modulemap */,
+				035652294205117632827F1E4CAFCB65 /* Pods-msm-chat-msm-chatUITests-acknowledgements.markdown */,
+				5CF06ADBB90C15973EAE8B88470EE6F7 /* Pods-msm-chat-msm-chatUITests-acknowledgements.plist */,
+				47DDDF42C0A63826369DA1348ACB8304 /* Pods-msm-chat-msm-chatUITests-dummy.m */,
+				521C27B11AD8F779F86E2230F9EF3805 /* Pods-msm-chat-msm-chatUITests-frameworks.sh */,
+				7E6EB609C0C10A710D3052B6A0DDC83C /* Pods-msm-chat-msm-chatUITests-Info.plist */,
+				01BAFCCAAE9BBA16582D7F4CDD0026F2 /* Pods-msm-chat-msm-chatUITests-umbrella.h */,
+				9336F1880E2805D76E627908D24207DB /* Pods-msm-chat-msm-chatUITests.debug.xcconfig */,
+				335ECEC6D71D6A0DB06EED39C98220E1 /* Pods-msm-chat-msm-chatUITests.release.xcconfig */,
+			);
+			name = "Pods-msm-chat-msm-chatUITests";
+			path = "Target Support Files/Pods-msm-chat-msm-chatUITests";
+			sourceTree = "<group>";
+		};
+		836EC6D4DAADBBAE158B4CAB048015A6 /* Pods-msm-chatTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B55C17FCBF44E0C93397EB10789B358 /* Pods-msm-chatTests.modulemap */,
+				D729B948748E0016F455B0D77ECDD680 /* Pods-msm-chatTests-acknowledgements.markdown */,
+				A9B8DA7DDBDC630AEA0F870EE232320A /* Pods-msm-chatTests-acknowledgements.plist */,
+				CA0D426F72BC346A614B145D304BD7F2 /* Pods-msm-chatTests-dummy.m */,
+				8F45287461CD6169F6BA3EE789780DA8 /* Pods-msm-chatTests-Info.plist */,
+				015D4FBC989620652F6B59D4EDA2CC8B /* Pods-msm-chatTests-umbrella.h */,
+				3DC9705E253DB88B73151F6137B3BDC0 /* Pods-msm-chatTests.debug.xcconfig */,
+				AC6074C54FAEE7C77563A941C0BF367B /* Pods-msm-chatTests.release.xcconfig */,
+			);
+			name = "Pods-msm-chatTests";
+			path = "Target Support Files/Pods-msm-chatTests";
+			sourceTree = "<group>";
+		};
+		CA13D49ADE69D79D70A8B79AAAC38DE9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2689EA712E5D78CDDF35E7B1BD8994B6 /* AVFoundation.framework */,
+				2BD9787FB7C94A0DC2A516C656509B78 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D52773FB7B53C56189918AD2E286F686 /* Pods */,
+				3A82C881558F7FC5ADBE0409C493003B /* Products */,
+				1DB1EFACF55E0ECBE8EA0621AE8EB87E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBB19E70E9A57AE76E669EB62FFDDE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AFC40C5FC81BD132BC011C1DAD2A1FC /* AUTO@3x.png */,
+				F3C399FDE0A9DDB812356AB0E951CE98 /* cameraIcon@3x.png */,
+				49CAFE6EDCB50D61BE052FE793467356 /* focusIcon@3x.png */,
+				E70D93783E4A69B25B4EFDA0EE1E715C /* OFF@3x.png */,
+				34D5D540FE0B1BBA49CCBAF458450341 /* ON@3x.png */,
+				28B6AEE763382C86405643D88350EA9A /* selectedImageGallery@3x.png */,
+				36D55EED39C90C9AE362D0FA1F4453F6 /* video@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D186EFC1749125C220C2642A895195CD /* Pods-msm-chat */ = {
+			isa = PBXGroup;
+			children = (
+				2A9D148781324D6322B5F6988902F62C /* Pods-msm-chat.modulemap */,
+				43E53BF0CBE8727C9F4A8B62DE89D04A /* Pods-msm-chat-acknowledgements.markdown */,
+				0CB496752B23A5C57F7D542F5DB16DDC /* Pods-msm-chat-acknowledgements.plist */,
+				1C5FBFC75CF66A2B77C3C611CC4F7AB5 /* Pods-msm-chat-dummy.m */,
+				5E2BDCAA1D49996587CEAAD702DEA883 /* Pods-msm-chat-frameworks.sh */,
+				1826BF4915616953F6EC458926E78D81 /* Pods-msm-chat-Info.plist */,
+				18D07B7633E2DD6FAB97DFF9ADE0F37A /* Pods-msm-chat-umbrella.h */,
+				DA0B8BB421D4D8573367A95BA74C8B28 /* Pods-msm-chat.debug.xcconfig */,
+				18C0315E9442232998242554668FBE59 /* Pods-msm-chat.release.xcconfig */,
+			);
+			name = "Pods-msm-chat";
+			path = "Target Support Files/Pods-msm-chat";
+			sourceTree = "<group>";
+		};
+		D52773FB7B53C56189918AD2E286F686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				695A0AF2E1799DD4435390E977914ED8 /* ImagePicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8AE0D8E201B7AD2D13714055D31771A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E6256C3C273E675370F545AE08B78F /* ImagePicker.modulemap */,
+				D4DB2C2EB249A108C21C5ABD1D0FB909 /* ImagePicker-dummy.m */,
+				2D3316990265FC1BBA0A3C3894490AD3 /* ImagePicker-Info.plist */,
+				821F809DE0C56CC42208996F2EC0E50C /* ImagePicker-prefix.pch */,
+				98B872CD909F3F1446FA0E7738E944D6 /* ImagePicker-umbrella.h */,
+				BC46B1C648C8E33E41B22921C4A96852 /* ImagePicker.debug.xcconfig */,
+				0A5A19CA5333DE24696B9E1A29B30617 /* ImagePicker.release.xcconfig */,
+				097D47574F66EE356DD57074B17B6E71 /* ResourceBundle-ImagePicker-ImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImagePicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11370304D07B86BF4935D7D5A612503A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743ED1DCEC16DC2E7FAD8FBDD276EC8F /* ImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3873823ECEDD557077BFE340E3E438B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1506893160B3A44F8C2244C42DC1491D /* Pods-msm-chat-msm-chatUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A729E9369A7225EE1E49EE6B30659C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C48F5FED4CDDFF36AA6BCC947E22FE /* Pods-msm-chatTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F6ABD633806210690C4BA1E5DA0CD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C470FBFE6DA12031E04B218E213C775 /* Pods-msm-chat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01CB8D6098C21E12CE735619344DE81E /* ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3A25ED647A443AB573ACE0764C0105 /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildPhases = (
+				11370304D07B86BF4935D7D5A612503A /* Headers */,
+				2B626AFFE9BD7779C34A93A510CE1073 /* Sources */,
+				2067457DB9BF3FC9BFE99C90B602174A /* Frameworks */,
+				500BEBDB28E9B664CEB4A237CBAE1EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B413A6844A2471C487FAF4EE40A03E45 /* PBXTargetDependency */,
+			);
+			name = ImagePicker;
+			productName = ImagePicker;
+			productReference = 987CD19BC0CE18F2E00B0AD5ABF8670D /* ImagePicker */;
+			productType = "com.apple.product-type.framework";
+		};
+		614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E95013F734B1F2E035D20721244748F /* Build configuration list for PBXNativeTarget "ImagePicker-ImagePicker" */;
+			buildPhases = (
+				F3E5215689D84DBA8743FC2C0EC60D9D /* Sources */,
+				9AD3FC742B3A2BCFD5740512F039A706 /* Frameworks */,
+				EDF172C2B271D2E328FB08F31E984CB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImagePicker-ImagePicker";
+			productName = ImagePicker;
+			productReference = 97AA160F23F0CBEDDAF212103E762FC7 /* ImagePicker-ImagePicker */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7762A97B8C42484D2D0492DA9D3DCF56 /* Pods-msm-chat-msm-chatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E7A8FDB540DD9F1DE749110CA8D3C42 /* Build configuration list for PBXNativeTarget "Pods-msm-chat-msm-chatUITests" */;
+			buildPhases = (
+				3873823ECEDD557077BFE340E3E438B3 /* Headers */,
+				EF8F1767D5BDE3557B7F56D59FD3FF54 /* Sources */,
+				42908E8E002D1B591A51EF1DA1E53714 /* Frameworks */,
+				EE31C1C601581F894D5522151BE580C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB252E2553CA6A5D45FB59069561C325 /* PBXTargetDependency */,
+			);
+			name = "Pods-msm-chat-msm-chatUITests";
+			productName = Pods_msm_chat_msm_chatUITests;
+			productReference = FD2D986153563A7CCC558E95B1ABB2CA /* Pods-msm-chat-msm-chatUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8C9735150B775D5D9AC0B3E7843763E /* Pods-msm-chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FE8548A26C0284F9A250463FBDB5AB5 /* Build configuration list for PBXNativeTarget "Pods-msm-chat" */;
+			buildPhases = (
+				D7F6ABD633806210690C4BA1E5DA0CD4 /* Headers */,
+				72E099552DF8F206DF159EF1477B1A7A /* Sources */,
+				036E88A2F8759A611EA5EC7A1A647D01 /* Frameworks */,
+				4A3772C1F103D807AF5E668D7B580D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03A7FD93412859853E206635272B86D /* PBXTargetDependency */,
+			);
+			name = "Pods-msm-chat";
+			productName = Pods_msm_chat;
+			productReference = ECB0E1217B26FAE7B4B7619F7C4F52D5 /* Pods-msm-chat */;
+			productType = "com.apple.product-type.framework";
+		};
+		F517A8D8C73D00031C5161E9C2F25996 /* Pods-msm-chatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9590EAB253B944CDC0CC0AF78DEC63 /* Build configuration list for PBXNativeTarget "Pods-msm-chatTests" */;
+			buildPhases = (
+				D3A729E9369A7225EE1E49EE6B30659C /* Headers */,
+				407B6F15B947A74D8B3E32FBBF97CCA0 /* Sources */,
+				795AEFA250880B12E4934D01241B2BEB /* Frameworks */,
+				2EDAE0DB8DF2B65DDB535D9FF35CC63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534FD45620C1DE390F6E9236AF59247B /* PBXTargetDependency */,
+			);
+			name = "Pods-msm-chatTests";
+			productName = Pods_msm_chatTests;
+			productReference = C7D1A227B0CCF96E8138F4C7475997FA /* Pods-msm-chatTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A82C881558F7FC5ADBE0409C493003B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CB8D6098C21E12CE735619344DE81E /* ImagePicker */,
+				614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */,
+				B8C9735150B775D5D9AC0B3E7843763E /* Pods-msm-chat */,
+				7762A97B8C42484D2D0492DA9D3DCF56 /* Pods-msm-chat-msm-chatUITests */,
+				F517A8D8C73D00031C5161E9C2F25996 /* Pods-msm-chatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EDAE0DB8DF2B65DDB535D9FF35CC63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3772C1F103D807AF5E668D7B580D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500BEBDB28E9B664CEB4A237CBAE1EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBD42E84E62842B6EA186CEF24BBF45 /* ImagePicker-ImagePicker in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF172C2B271D2E328FB08F31E984CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F4D709074A8CEA58AC531A80753D2E /* AUTO@3x.png in Resources */,
+				A37A20D9F4E2FCF3202E74B02CDC2708 /* cameraIcon@3x.png in Resources */,
+				CEA4A5C88C331EE4459A3040D19CC1C2 /* focusIcon@3x.png in Resources */,
+				0D2EA64206F005D787CF43B202E3D2AD /* OFF@3x.png in Resources */,
+				DE86F0E560347FA4BF03461BF531D733 /* ON@3x.png in Resources */,
+				A4085A5FF75C0C181C305B1EAA748A45 /* selectedImageGallery@3x.png in Resources */,
+				6CC35A9EB4605045CFBB132862483483 /* video@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE31C1C601581F894D5522151BE580C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B626AFFE9BD7779C34A93A510CE1073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFE64B0759EFA4F555994B6CDCED624 /* AssetManager.swift in Sources */,
+				784DF7F278DC988FEEECB999A9ADFCBB /* BottomContainerView.swift in Sources */,
+				7DB7E0E519A315B78D72BF7C63C64E30 /* ButtonPicker.swift in Sources */,
+				1BBED45FEDD4AF437A762909E4937019 /* CameraMan.swift in Sources */,
+				829A79A8C324697D5A619C029AEB0063 /* CameraView.swift in Sources */,
+				F2ED9C9337B84D1E42E67BF7F7DAD72C /* Configuration.swift in Sources */,
+				38FD95DCC2D02D5B78BE9AEE48DBDF25 /* ConstraintsSetup.swift in Sources */,
+				1D5090C638CFC6ABA603A73B2D890CC7 /* Helper.swift in Sources */,
+				6FAA62F8C663AAEDAB170956E9A298CC /* ImageGalleryLayout.swift in Sources */,
+				FF8C6AC907C8F4B527F9A0CBDBCC7F92 /* ImageGalleryView.swift in Sources */,
+				1021FCA162D086E55DE8D6926F8DA215 /* ImageGalleryViewCell.swift in Sources */,
+				3806469B2739BBFA16083760004ED9B4 /* ImageGalleryViewDataSource.swift in Sources */,
+				CA8CFC49D2338D41DA4E83F941867CEB /* ImagePicker-dummy.m in Sources */,
+				50374D59C8ED3AE3E41C30F25859F981 /* ImagePickerController.swift in Sources */,
+				028F3BD1F76536182769D7FA2BB26457 /* ImageStack.swift in Sources */,
+				F2AF558F96F3C43C3E4C747E45E5637C /* LocationManager.swift in Sources */,
+				B0E87F4E370B3A0CD14B50D219AE7B0B /* StackView.swift in Sources */,
+				267C4C6C182CC853990C78F13C5318CE /* TopView.swift in Sources */,
+				1948830F0F143F2897657B9D75895EFA /* VideoInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407B6F15B947A74D8B3E32FBBF97CCA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFA92354C7ECB27D5E8C19B5841FC8A /* Pods-msm-chatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72E099552DF8F206DF159EF1477B1A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE83C179D9D7B8B134167165F54CCC8 /* Pods-msm-chat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F1767D5BDE3557B7F56D59FD3FF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3394F32D1012AEAB9CB4946C94213620 /* Pods-msm-chat-msm-chatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E5215689D84DBA8743FC2C0EC60D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534FD45620C1DE390F6E9236AF59247B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-msm-chat";
+			target = B8C9735150B775D5D9AC0B3E7843763E /* Pods-msm-chat */;
+			targetProxy = 08535404FFFF9BDC7BCF32998D4C601F /* PBXContainerItemProxy */;
+		};
+		B413A6844A2471C487FAF4EE40A03E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ImagePicker-ImagePicker";
+			target = 614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */;
+			targetProxy = D20B1B29B0AAA5B076105572542E247C /* PBXContainerItemProxy */;
+		};
+		BB252E2553CA6A5D45FB59069561C325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImagePicker;
+			target = 01CB8D6098C21E12CE735619344DE81E /* ImagePicker */;
+			targetProxy = 81EFA7862FE5CF3F55B56C4A58090E7B /* PBXContainerItemProxy */;
+		};
+		F03A7FD93412859853E206635272B86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImagePicker;
+			target = 01CB8D6098C21E12CE735619344DE81E /* ImagePicker */;
+			targetProxy = DF96B6AC265C4F86EDAC207AF9CC7465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21302220AA8668082E71583ECE31B7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5A19CA5333DE24696B9E1A29B30617 /* ImagePicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePicker/ImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImagePicker/ImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = ImagePicker;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33F0CC6A097C8CDC5B2E15B2DE62E381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335ECEC6D71D6A0DB06EED39C98220E1 /* Pods-msm-chat-msm-chatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-msm-chat-msm-chatUITests/Pods-msm-chat-msm-chatUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msm-chat-msm-chatUITests/Pods-msm-chat-msm-chatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57F5390C26CAC63BC7DC9F3A897AD41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC46B1C648C8E33E41B22921C4A96852 /* ImagePicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePicker/ImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImagePicker/ImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = ImagePicker;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DCA3A474D1DEAB23C335892ABE09DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5A19CA5333DE24696B9E1A29B30617 /* ImagePicker.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImagePicker";
+				IBSC_MODULE = ImagePicker;
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ResourceBundle-ImagePicker-ImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		775BB4D675F267521233EE02CBBE304F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC9705E253DB88B73151F6137B3BDC0 /* Pods-msm-chatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-msm-chatTests/Pods-msm-chatTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msm-chatTests/Pods-msm-chatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		797776739EBDA2572484FF8F039344D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C0315E9442232998242554668FBE59 /* Pods-msm-chat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-msm-chat/Pods-msm-chat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msm-chat/Pods-msm-chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8705DE346D31A39C84B997A7799F0F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0B8BB421D4D8573367A95BA74C8B28 /* Pods-msm-chat.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-msm-chat/Pods-msm-chat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msm-chat/Pods-msm-chat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A827D5D9C7AB4884F30EF77179028878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC46B1C648C8E33E41B22921C4A96852 /* ImagePicker.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImagePicker";
+				IBSC_MODULE = ImagePicker;
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ResourceBundle-ImagePicker-ImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C09B986B33497F0D0A866E5836F81295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6074C54FAEE7C77563A941C0BF367B /* Pods-msm-chatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-msm-chatTests/Pods-msm-chatTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msm-chatTests/Pods-msm-chatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D7150334E218894FDD43BF317D67D8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9336F1880E2805D76E627908D24207DB /* Pods-msm-chat-msm-chatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-msm-chat-msm-chatUITests/Pods-msm-chat-msm-chatUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-msm-chat-msm-chatUITests/Pods-msm-chat-msm-chatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FE8548A26C0284F9A250463FBDB5AB5 /* Build configuration list for PBXNativeTarget "Pods-msm-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8705DE346D31A39C84B997A7799F0F60 /* Debug */,
+				797776739EBDA2572484FF8F039344D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E95013F734B1F2E035D20721244748F /* Build configuration list for PBXNativeTarget "ImagePicker-ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A827D5D9C7AB4884F30EF77179028878 /* Debug */,
+				6DCA3A474D1DEAB23C335892ABE09DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9590EAB253B944CDC0CC0AF78DEC63 /* Build configuration list for PBXNativeTarget "Pods-msm-chatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775BB4D675F267521233EE02CBBE304F /* Debug */,
+				C09B986B33497F0D0A866E5836F81295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E7A8FDB540DD9F1DE749110CA8D3C42 /* Build configuration list for PBXNativeTarget "Pods-msm-chat-msm-chatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7150334E218894FDD43BF317D67D8D4 /* Debug */,
+				33F0CC6A097C8CDC5B2E15B2DE62E381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3A25ED647A443AB573ACE0764C0105 /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F5390C26CAC63BC7DC9F3A897AD41C /* Debug */,
+				21302220AA8668082E71583ECE31B7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

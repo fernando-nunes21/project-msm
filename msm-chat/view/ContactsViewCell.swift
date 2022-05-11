@@ -1,17 +1,19 @@
 //
-//  ConversationViewCell.swift
+//  ContactsViewCell.swift
 //  msm-chat
 //
-//  Created by Fernando on 06/05/22.
+//  Created by Fernando on 08/05/22.
 //
 
 import UIKit
 
-class ConversationViewCell: UITableViewCell {
+class ContactsViewCell: UITableViewCell {
+
+    @IBOutlet weak var name: UILabel!
     
+    @IBOutlet weak var status: UILabel!
     
     @IBOutlet weak var profileImage: UIImageView!
-    @IBOutlet weak var lastMessage: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

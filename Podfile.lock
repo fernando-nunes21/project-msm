@@ -1,0 +1,21 @@
+PODS:
+  - ImagePicker (3.2.0)
+
+DEPENDENCIES:
+  - ImagePicker (from `https://github.com/hyperoslo/ImagePicker.git`)
+
+EXTERNAL SOURCES:
+  ImagePicker:
+    :git: https://github.com/hyperoslo/ImagePicker.git
+
+CHECKOUT OPTIONS:
+  ImagePicker:
+    :commit: d8a8f840380b9a28230c8fcad277adb458706d0a
+    :git: https://github.com/hyperoslo/ImagePicker.git
+
+SPEC CHECKSUMS:
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+
+PODFILE CHECKSUM: 51211b905f121a5eddfe9e7ce8c2d8f8e7ac9299
+
+COCOAPODS: 1.11.2

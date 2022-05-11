@@ -10,12 +10,18 @@ import UIKit
 class ConversationsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     //change User to model represent conversation
-    var conversationUsers = [User]()
+    var conversationUsers = [Conversation]()
     
     @IBOutlet weak var conversations: UITableView!
     
     @IBAction func openProfile() {
         performSegue(withIdentifier: "Profile", sender: Any?.self)
+    }
+    
+    @IBAction func openContacts(_ sender: Any) {
+        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ContactsViewController")
+        self.dismiss(animated: false, completion: nil)
+        self.presentingViewController?.present(controller, animated: false, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -27,6 +33,8 @@ class ConversationsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func loadData() {
+        let conversation1 = Conversation(id: "teste", lastMessage: "Mensagem de teste", sendAt: Date(), senderProfileImage: URL(string: "http://www.teste.com.br/image1")!, fromUser: "12345", toUser: "23456")
+        conversationUsers.append(conversation1)
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -38,7 +46,7 @@ class ConversationsViewController: UIViewController, UITableViewDataSource, UITa
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! ConversationViewCell
         let conversationUser = conversationUsers[indexPath.row]
         
-        //cell.profileName.text = conversationUser.name
+        cell.lastMessage.text = conversationUser.lastMessage
         return cell
     }
     
